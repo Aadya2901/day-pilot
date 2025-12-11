@@ -119,6 +119,9 @@ Deploy the dist folder on Vercel, Netlify, or GitHub Pages.
 ### Landing Page
 ![Landing Page](images/landing_page_ss.png)
 
+### Prompt Page
+![Prompt Page](images/give_agenda_ss.png)
+
 ### AI Generated Plan
 ![Generated Plan](images/generated_plan_ss.png)
 
