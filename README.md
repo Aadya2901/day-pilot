@@ -2,13 +2,13 @@
 
 An interactive web app that lets users **generate personalized daily to-do lists, schedule tasks, and receive productivity tips** — all powered by **Google’s Gemini API**.  
 
-This website features a clean UI, input controls for goals/tasks, a “Generate Plan” button, an AI-powered output panel, and optional screenshots or demo videos — all designed to help users plan their day efficiently.  
+Built with **React, Vite, Tailwind CSS, and TypeScript**, this app provides a modern, responsive, and fast frontend experience.
 
 ---
 
 ## 🎯 Project Objective
 
-To create a **fully interactive, front-end web app** that allows users to **generate structured daily plans** instantly using AI — without any backend, using only **HTML, CSS, and JavaScript**.  
+To create a **fully interactive, front-end web app** where users can **generate structured daily plans** instantly using AI, without a backend. The app focuses on usability, speed, and clarity, and works on both desktop and mobile browsers.
 
 ---
 
@@ -16,15 +16,17 @@ To create a **fully interactive, front-end web app** that allows users to **gene
 
 🔗 [Visit the Website](https://day-pilot-tangerine.lovable.app/)  
 
+**GitHub Repo:** [https://github.com/Aadya2901/day-pilot](https://github.com/Aadya2901/day-pilot)
+
 ---
 
 ## 🖥️ Tech Stack
 
-- HTML5 + CSS3 + JavaScript (ES6)  
-- Modular front-end structure for maintainability  
+- **React 18 + TypeScript**  
+- **Vite** for fast development and bundling  
+- **Tailwind CSS + shadcn/ui** for responsive UI components  
 - **Google Gemini API** via AI Studio for AI-generated daily plans  
-- Fully responsive, mobile-first design  
-- No backend required  
+- Fully front-end, no backend required  
 
 ---
 
@@ -44,9 +46,71 @@ To create a **fully interactive, front-end web app** that allows users to **gene
 - Helps users improve efficiency and organization  
 
 ### *User-Friendly Interface*  
-- ✨ Clean and simple UI for desktop and mobile  
+- ✨ Clean UI for desktop and mobile  
 - Output panel displays AI-generated plan clearly  
-- Option to copy or save the plan  
+- Copy or save the generated plan  
+
+---
+
+## 📁 Folder Structure
+
+```
+day-pilot/
+├── public/ # Static assets
+├── src/
+│ ├── components/ # Reusable React components
+│ ├── pages/ # Pages (Landing, Planner, etc.)
+│ ├── App.tsx # Main app component
+│ ├── main.tsx # ReactDOM render
+│ └── index.css # Global styles
+├── .env # API keys
+├── package.json # Dependencies
+├── tsconfig.json # TypeScript config
+├── tailwind.config.ts # Tailwind config
+├── vite.config.ts # Vite config
+└── README.md # This file
+```
+
+---
+
+## ⚙️ Setup Instructions
+
+### 1. Clone the Repository
+
+```
+git clone https://github.com/<your-username>/day-pilot.git
+cd day-pilot
+```
+
+2. Install Dependencies
+   
+```
+npm install
+```
+
+3. Add Gemini API Key
+
+Create a .env file in the root:
+
+```
+VITE_GEMINI_API_KEY=your_api_key_here
+```
+
+4. Run Locally
+
+```
+npm run dev
+```
+
+Open the URL shown in the terminal to see your app running locally.
+
+5. Build for Production
+
+```
+npm run build
+```
+
+Deploy the dist folder on Vercel, Netlify, or GitHub Pages.
 
 ---
 
@@ -63,5 +127,41 @@ To create a **fully interactive, front-end web app** that allows users to **gene
 
 ---
 
-## 📁 Folder Structure
+
+👥 Contributors
+Name	Role
+@aadya2901	Landing Page, Deployment, Documentation, AI Integration
+@ananyamishra13	UI Components, Pages, Output Panel
+@iam-anish15 
+
+---
+
+🤝 Contributing
+
+We welcome contributions, improvements, and bug fixes:
+
+Fork the project
+
+Create a feature branch (git checkout -b feature/YourFeature)
+
+Commit your changes (git commit -m 'Add your feature')
+
+Push to the branch (git push origin feature/YourFeature)
+
+Open a Pull Request
+
+---
+
+📝 License
+
+This project is open source under the MIT License. Use it for personal or educational purposes.
+
+---
+
+💬 Final Note
+
+"Plan your day in seconds, stay productive, and reduce overwhelm — powered by AI!" 🚀
+
+---
+
 
