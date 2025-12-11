@@ -18,6 +18,9 @@ To create a **fully interactive, front-end web app** where users can **generate 
 
 **GitHub Repo:** [https://github.com/Aadya2901/day-pilot](https://github.com/Aadya2901/day-pilot)
 
+### Demo Video
+[Watch Demo on YouTube](https://youtu.be/a1ljZ7UO0uI?si=Woa-moxh4CMqbfzz)
+
 ---
 
 ## 🖥️ Tech Stack
@@ -125,8 +128,6 @@ Deploy the dist folder on Vercel, Netlify, or GitHub Pages.
 ### AI Generated Plan
 ![Generated Plan](images/generated_plan_ss.png)
 
-### Optional Demo Video
-[Watch Demo on YouTube](https://youtu.be/a1ljZ7UO0uI?si=Woa-moxh4CMqbfzz)
 
 ---
 
