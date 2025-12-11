@@ -138,7 +138,7 @@ Deploy the dist folder on Vercel, Netlify, or GitHub Pages.
 |------|------|
 | @aadya2901 | Leader | AI Integration, Landing Page, Deployment, Documentation |
 | @iam-anish15 | UI Design, Styling, Frontend Enhancements |
-| @ananyamishra13 |  Pages & Components Development, Output Panel |
+| @ananyamishra13 | Pages & Components Development, Output Panel |
 
 
 ---
