@@ -2,6 +2,3 @@ project_id = "muqtlomjcbpennezpdpo"
 
 [functions.generate-plan]
 verify_jwt = false
-
-[functions.analyze-symptoms]
-verify_jwt = false

@@ -1,171 +1,73 @@
-# 🌠 DayPilot – AI Daily Planner & Task Generator
+# Welcome to your Lovable project
 
-An interactive web app that lets users **generate personalized daily to-do lists, schedule tasks, and receive productivity tips** — all powered by **Google’s Gemini API**.  
+## Project info
 
-Built with **React, Vite, Tailwind CSS, and TypeScript**, this app provides a modern, responsive, and fast frontend experience.
+**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
 
----
+## How can I edit this code?
 
-## 🎯 Project Objective
+There are several ways of editing your application.
 
-To create a **fully interactive, front-end web app** where users can **generate structured daily plans** instantly using AI, without a backend. The app focuses on usability, speed, and clarity, and works on both desktop and mobile browsers.
+**Use Lovable**
 
----
+Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
 
-## 🚀 Live Demo
+Changes made via Lovable will be committed automatically to this repo.
 
-🔗 [Visit the Website](https://day-pilot-tangerine.lovable.app/)  
+**Use your preferred IDE**
 
-**GitHub Repo:** [https://github.com/Aadya2901/day-pilot](https://github.com/Aadya2901/day-pilot)
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-### Demo Video
-[Watch Demo on YouTube](https://youtu.be/a1ljZ7UO0uI?si=Woa-moxh4CMqbfzz)
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
----
+Follow these steps:
 
-## 🖥️ Tech Stack
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
-- **React 18 + TypeScript**  
-- **Vite** for fast development and bundling  
-- **Tailwind CSS + shadcn/ui** for responsive UI components  
-- **Google Gemini API** via AI Studio for AI-generated daily plans  
-- Fully front-end, no backend required  
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
----
+# Step 3: Install the necessary dependencies.
+npm i
 
-## 🌟 Features
-
-### *QuickPlan*
-- 📝 Enter daily goals or tasks  
-- Click **Generate Plan** to get a structured schedule  
-- AI generates **priority tasks, estimated time blocks, and productivity tips**  
-
-### *SmartBreaks*  
-- ⏱️ Suggested break times to maximize focus  
-- Reduces decision fatigue and keeps the user on track  
-
-### *ProductivityTips*  
-- 💡 Quick actionable tips based on tasks  
-- Helps users improve efficiency and organization  
-
-### *User-Friendly Interface*  
-- ✨ Clean UI for desktop and mobile  
-- Output panel displays AI-generated plan clearly  
-- Copy or save the generated plan  
-
----
-
-## 📁 Folder Structure
-
-```
-day-pilot/
-├── public/ # Static assets
-├── src/
-│ ├── components/ # Reusable React components
-│ ├── pages/ # Pages (Landing, Planner, etc.)
-│ ├── App.tsx # Main app component
-│ ├── main.tsx # ReactDOM render
-│ └── index.css # Global styles
-├── .env # API keys
-├── package.json # Dependencies
-├── tsconfig.json # TypeScript config
-├── tailwind.config.ts # Tailwind config
-├── vite.config.ts # Vite config
-└── README.md # This file
-```
-
----
-
-## ⚙️ Setup Instructions
-
-### 1. Clone the Repository
-
-```
-git clone https://github.com/<your-username>/day-pilot.git
-cd day-pilot
-```
-
-2. Install Dependencies
-   
-```
-npm install
-```
-
-3. Add Gemini API Key
-
-Create a .env file in the root:
-
-```
-VITE_GEMINI_API_KEY=your_api_key_here
-```
-
-4. Run Locally
-
-```
+# Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
 ```
 
-Open the URL shown in the terminal to see your app running locally.
+**Edit a file directly in GitHub**
 
-5. Build for Production
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-```
-npm run build
-```
+**Use GitHub Codespaces**
 
-Deploy the dist folder on Vercel, Netlify, or GitHub Pages.
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
----
+## What technologies are used for this project?
 
-## 📸 Screenshots / Demo Video
+This project is built with:
 
-### Landing Page
-![Landing Page](images/landing_page_ss.png)
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
 
-### Prompt Page
-![Prompt Page](images/give_agenda_ss.png)
+## How can I deploy this project?
 
-### AI Generated Plan
-![Generated Plan](images/generated_plan_ss.png)
+Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
 
+## Can I connect a custom domain to my Lovable project?
 
----
+Yes, you can!
 
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
-👥 Contributors
-
-| Name | Role |
-|------|------|
-| @aadya2901 | Leader, AI Integration, Landing Page, Deployment, Documentation |
-| @iam-anish15 | UI Design, Styling, Frontend Enhancements |
-| @ananyamishra13 | Pages & Components Development, Output Panel |
-
-
----
-
-
-## 🤝 Contributing
-
-We welcome contributions, improvements, and bug fixes:
-
-1. Fork the project  
-2. Create your feature branch (`git checkout -b feature/YourFeature`)  
-3. Commit your changes (`git commit -m 'Add your feature'`)  
-4. Push to the branch (`git push origin feature/YourFeature`)  
-5. Open a Pull Request  
-
----
-
-📝 License
-
-This project is open source under the MIT License. Use it for personal or educational purposes.
-
----
-
-💬 Final Note
-
-"Plan your day in seconds, stay productive, and reduce overwhelm — powered by AI!" 🚀
-
----
-
-
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)

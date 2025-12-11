@@ -1,21 +1,7 @@
-import { useState } from "react";
-import { LandingHero } from "@/components/LandingHero";
-import { ChatInterface } from "@/components/ChatInterface";
-
-type View = "landing" | "chat";
+import { DailyPlanner } from "@/components/DailyPlanner";
 
 const Index = () => {
-  const [currentView, setCurrentView] = useState<View>("landing");
-
-  return (
-    <>
-      {currentView === "landing" ? (
-        <LandingHero onStartChat={() => setCurrentView("chat")} />
-      ) : (
-        <ChatInterface onBack={() => setCurrentView("landing")} />
-      )}
-    </>
-  );
+  return <DailyPlanner />;
 };
 
 export default Index;
