@@ -1,73 +1,67 @@
-# Welcome to your Lovable project
+# 🌠 DayPilot – AI Daily Planner & Task Generator
 
-## Project info
+An interactive web app that lets users **generate personalized daily to-do lists, schedule tasks, and receive productivity tips** — all powered by **Google’s Gemini API**.  
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+This website features a clean UI, input controls for goals/tasks, a “Generate Plan” button, an AI-powered output panel, and optional screenshots or demo videos — all designed to help users plan their day efficiently.  
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🎯 Project Objective
 
-**Use Lovable**
+To create a **fully interactive, front-end web app** that allows users to **generate structured daily plans** instantly using AI — without any backend, using only **HTML, CSS, and JavaScript**.  
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🚀 Live Demo
 
-**Use your preferred IDE**
+🔗 [Visit the Website](https://day-pilot-tangerine.lovable.app/)  
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🖥️ Tech Stack
 
-Follow these steps:
+- HTML5 + CSS3 + JavaScript (ES6)  
+- Modular front-end structure for maintainability  
+- **Google Gemini API** via AI Studio for AI-generated daily plans  
+- Fully responsive, mobile-first design  
+- No backend required  
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🌟 Features
 
-# Step 3: Install the necessary dependencies.
-npm i
+### *QuickPlan*
+- 📝 Enter daily goals or tasks  
+- Click **Generate Plan** to get a structured schedule  
+- AI generates **priority tasks, estimated time blocks, and productivity tips**  
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+### *SmartBreaks*  
+- ⏱️ Suggested break times to maximize focus  
+- Reduces decision fatigue and keeps the user on track  
 
-**Edit a file directly in GitHub**
+### *ProductivityTips*  
+- 💡 Quick actionable tips based on tasks  
+- Helps users improve efficiency and organization  
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### *User-Friendly Interface*  
+- ✨ Clean and simple UI for desktop and mobile  
+- Output panel displays AI-generated plan clearly  
+- Option to copy or save the plan  
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 📸 Screenshots / Demo Video
 
-## What technologies are used for this project?
+### Landing / Input Page
+![Landing Page](images/landing_page_ss.png)
 
-This project is built with:
+### AI Generated Plan
+![Generated Plan](images/generated_plan_ss.png)
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### Optional Demo Video
+[Watch Demo on YouTube](https://www.youtube.com/watch?v=YOUR_VIDEO_LINK)
 
-## How can I deploy this project?
+---
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+## 📁 Folder Structure
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
