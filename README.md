@@ -116,14 +116,14 @@ Deploy the dist folder on Vercel, Netlify, or GitHub Pages.
 
 ## 📸 Screenshots / Demo Video
 
-### Landing / Input Page
+### Landing Page
 ![Landing Page](images/landing_page_ss.png)
 
 ### AI Generated Plan
 ![Generated Plan](images/generated_plan_ss.png)
 
 ### Optional Demo Video
-[Watch Demo on YouTube](https://www.youtube.com/watch?v=YOUR_VIDEO_LINK)
+[Watch Demo on YouTube](https://youtu.be/a1ljZ7UO0uI?si=Woa-moxh4CMqbfzz)
 
 ---
 
