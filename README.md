@@ -18,8 +18,7 @@ To create a **fully interactive, front-end web app** where users can **generate 
 
 🔗 **GitHub Repo:** https://github.com/Aadya2901/day-pilot
 
-🔗 **Kaggle Writeup:**  
-https://www.kaggle.com/competitions/gemini-3/writeups/new-writeup-1765470230315
+🔗 **Kaggle Writeup:**  https://www.kaggle.com/competitions/gemini-3/writeups/new-writeup-1765470230315
 
 ---
 
