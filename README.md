@@ -14,11 +14,11 @@ To create a **fully interactive, front-end web app** where users can **generate 
 
 ## 🚀 Live Demo
 
-🔗 **Website:** https://day-pilot-tangerine.vercel.app/
+🔗 **Website:** [Visit the Website](https://day-pilot-tangerine.vercel.app/)
 
 🔗 **GitHub Repo:** https://github.com/Aadya2901/day-pilot
 
-🔗 **Kaggle Writeup:**  https://www.kaggle.com/competitions/gemini-3/writeups/new-writeup-1765470230315
+🔗 **Kaggle Writeup:** [View the Kaggle Writeup} (https://www.kaggle.com/competitions/gemini-3/writeups/new-writeup-1765470230315)
 
 **Demo Video:** [Watch Demo on YouTube](https://www.youtube.com/watch?v=a1ljZ7UO0uI)
 
@@ -125,9 +125,6 @@ Deploy the dist folder on Vercel, Netlify, or GitHub Pages.
 
 ### AI Generated Plan
 ![Generated Plan](images/generated_plan_ss.png)
-
-### Demo Video
-[Watch Demo on YouTube](https://www.youtube.com/watch?v=YOUR_VIDEO_LINK)
 
 ---
 
