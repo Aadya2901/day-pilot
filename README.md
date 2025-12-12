@@ -14,9 +14,12 @@ To create a **fully interactive, front-end web app** where users can **generate 
 
 ## 🚀 Live Demo
 
-🔗 [Visit the Website](https://day-pilot-tangerine.lovable.app/)  
+🔗 **Website:** https://day-pilot-tangerine.lovable.app/
 
-**GitHub Repo:** [https://github.com/Aadya2901/day-pilot](https://github.com/Aadya2901/day-pilot)
+🔗 **GitHub Repo:** https://github.com/Aadya2901/day-pilot
+
+🔗 **Kaggle Writeup:**  
+https://www.kaggle.com/competitions/gemini-3/writeups/new-writeup-1765470230315
 
 ---
 
